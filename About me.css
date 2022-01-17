@@ -1,0 +1,56 @@
+* {
+    table {
+        margin: 10px;
+        width: 99%
+        border-collapse::collapse
+    }
+    }
+    
+    .text h1 {
+        color: #fff;
+        font size: 300px;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    
+    #main nav ul {
+        float: right;
+        margin: 20px;
+        margin-top: 20px;
+    }
+    
+    #main nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 50px;
+    }
+    #main nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 9px 15px;
+        transition: 0.4s all ease-out;
+        font-family: 'Balsamiq Sans', cursive;
+        
+    }
+    
+    #main nav ul li a.active,
+    #main nav ul li a:hover {
+        background: purple;
+        color: gold;
+        transition: 0.4s all ease out;
+    }
+    
+    header {
+        background: linear-gradient(rgb(229, 231, 119),rgba(42,58,74,0.85)),url(land.jpeg.jpeg);
+        height: 350vh;
+        background-size: cover;
+        background-position: center;
+		background-color:lightyellow;
+    }
+    
+    .text {
+        text-size-adjust:9px 15px;
+        color: moccasin;
+        left: 6cm;
+        right: 6cm;
+    }   
